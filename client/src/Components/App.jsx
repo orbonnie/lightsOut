@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component, useState } from "react";
+import Board from "./Board.jsx";
+import "./App.css";
 
-const App = () => {
-  return (
-    <div>
-      App
+const App = () => (
+    <div className='App'>
+      <Board />
     </div>
   )
-}
+
 
 export default App;
